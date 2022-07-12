@@ -8,21 +8,21 @@ class Main extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			modals_view: false,
+			modals_view: false
 		}
 	}
 
 	handelClick = () => {
-		this.setState({modals_view: !this.modals_view})
+		this.setState({modals_view: !this.state.modals_view})
 	}
 
 	render() {
 		return (
 			<main className="clearfix">
 				<Hero />
-				<DreamTeam />
+				<DreamTeam view={this.handelClick}/>
 				<FarGalaxy />
-				<Modals />
+				{this.state.modals_view && <Modals view={this.handelClick}/>}
 			</main>
 		)
 	}
