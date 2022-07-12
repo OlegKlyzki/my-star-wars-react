@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+@import './Media/media.css';
+@import './Modals.css';
+
+body {
+	font-family: "Poller One", cursive;
+	background-image: url("./Images/sky.jpg");
+	color: goldenrod;
+	background-attachment: fixed;
+}

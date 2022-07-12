@@ -1,0 +1,18 @@
+@media (max-width: 1440px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .images_block_main {
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .btn-dt {
+        width: 97%;
+        margin: 0 !important;
+    }
+}
