@@ -1,5 +1,5 @@
 import React from 'react'
-import { buttons_nav } from '../../Utils/buttons_text'
+import { buttons_nav } from '../../Utils/Constants'
 
 const Navigation = () => {
 	return (
